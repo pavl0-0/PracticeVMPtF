@@ -2,16 +2,18 @@ def task1 ():
     for i in range(1, 11):
         print(i)
 
-task1()
+
 
 print("=========================================================")
 
 def task2 ():
-    num1 = float(input("Перше число: "))
-    num2 = float(input("Друге число: "))
-    num3 = float(input("Третє число: "))
+    count = int(input("Кількість чисел: "))
+    sum = 0
+    for i in range (count):
+        num = float(input(f"Число {i + 1}: "))
+        sum += num
 
-    average = (num1 + num2 + num3) / 3
+    average = sum / count
     
     print(f"Середнє арефметичне введених чисел: {average}")
 
@@ -26,7 +28,7 @@ def task3 ():
 
     print(f"Ваш вік - {age}")
 
-task3 ()
+
 
 print("=========================================================")
 
@@ -41,4 +43,3 @@ class Book():
 
 book = Book("Кобзар", "Тарас Шевченко", 2025)
 
-print(book)

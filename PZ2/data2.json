@@ -1,0 +1,32 @@
+[
+  {
+    "ID": 1,
+    "Ім'я": "Pavlo Zhuk",
+    "Роль": "Full-Stack Developer",
+    "Група": "PZPI-24-2"
+  },
+  {
+    "ID": 2,
+    "Ім'я": "Belei Maksym",
+    "Роль": "Frontend Developer",
+    "Група": "PZPI-24-2"
+  },
+  {
+    "ID": 3,
+    "Ім'я": "Dmytro Hontarenko",
+    "Роль": "Backend Developer",
+    "Група": "PZPI-24-2"
+  },
+  {
+    "ID": 4,
+    "Ім'я": "Matvii Yeromenko",
+    "Роль": "QA Engineer",
+    "Група": "PZPI-24-2"
+  },
+  {
+    "ID": 5,
+    "Ім'я": "Vadym Karban",
+    "Роль": "DevOps",
+    "Група": "PZPI-24-2"
+  }
+]
